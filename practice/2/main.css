@@ -1,0 +1,29 @@
+/* CSS Document :D */
+h2 {
+    color: #565656;
+}
+.gm {
+	color: #0404ba;
+}
+
+.mm > li {
+    line-height: 1.6;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.cgm > li {
+	line-height: 1.5;
+	font-size: 16pt;
+}
+
+.cgm > li.bl {
+	color: black;
+	font-size: 20pt;
+}
+
+.mm > li.bl {
+	font-size: 17pt;
+	color: black;
+	font-weight: bold;
+}

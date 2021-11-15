@@ -1,0 +1,196 @@
+.texts1 {
+	color: white;
+	font-size: 25pt /* Моё */
+}
+.texts2 {
+	color: white;
+	font-size: 20pt /* Ссылки на практику ;D */
+}
+
+a {
+	color: rgb(170, 170, 170); /* Ccылка подсвечивается белым */
+}
+
+/* Xasya */
+IMG.fig {
+	float: left; /* Обтекание картинки по левому краю */
+	padding-left: 10px; /* Отступ слева */
+	padding-bottom: 10px; /* Отступ снизу */
+}
+
+/* Hatsushimo <3 */
+IMG.Hatsushimo_Nya {
+	position: fixed; /* Фиксированная позиция */
+	height: auto; /* Высота изображения */
+	width: 500; /* Ширина изображения */
+	left: 40%; /* Справа отступ */
+	top: 30px; /* Сверху отступ */
+}
+
+/* Тут будут прописаны стили для разных экранов */
+.content{background-color: #FBFBFB; position: relative;margin: 0;padding: 0;border: 0;float: left;overflow: hidden; max-width: 768px; width: 100%;}
+.sidebar1{background-color: #FBFBFB; position: relative;margin-right: 0;padding: 0;border: 0;float: left;overflow: hidden; width: 100%; max-width: 268px;}
+blockquote{margin:10px 10px 10px 35px;}
+
+
+/* Custom 2560px */
+@media only screen and (max-width : 2560px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+
+IMG.Hatsushimo_Nya {
+	position: fixed; /* Фиксированная позиция */
+	height: auto; /* Высота изображения */
+	width: 500; /* Ширина изображения */
+	left: 30%; /* Справа отступ */
+	top: 30px; /* Сверху отступ */
+}
+}
+
+/* Custom 1920px */
+@media only screen and (max-width : 1920px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+
+IMG.Hatsushimo_Nya {
+	position: fixed; /* Фиксированная позиция */
+	height: auto; /* Высота изображения */
+	width: 600; /* Ширина изображения */
+	left: 40%; /* Справа отступ */
+	top: 30px; /* Сверху отступ */
+}
+}
+
+/* Custom 1366px */
+@media only screen and (max-width : 1366px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+
+IMG.Hatsushimo_Nya {
+	position: fixed; /* Фиксированная позиция */
+	height: auto; /* Высота изображения */
+	width: 500; /* Ширина изображения */
+	left: 40%; /* Справа отступ */
+	top: 30px; /* Сверху отступ */
+}
+}
+
+
+/* Сustom 1280px */
+@media only screen and (max-width : 1280px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 370px;
+	left: 40%;
+	top: 30px;
+}
+}
+
+
+
+/* Custom 1024px */
+@media only screen and (max-width : 1024px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 350px;
+	left: 45%;
+	top: 100px;
+}
+}
+
+
+/* Custom 720px */
+@media only screen and (max-width : 720px) {
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 350px;
+	left: 40%;
+	top: 166px;
+}
+}
+
+
+/* Custom 640px */
+@media only screen and (max-width : 640px) {
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 300px;
+	left: 30%;
+	top: 100px;
+}
+}
+
+
+/* Custom 480px */
+@media only screen and (max-width : 480px) {
+  .content{max-width: none; width: 100%;}
+  .sidebar1{max-width: none; width: 100%;}
+  blockquote{margin:10px;}
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 250px;
+	left: 35%;
+	top: 210px;
+}
+}
+
+
+/* Custom 425px */
+@media only screen and (max-width : 425px) {
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 200px;
+	left: 35%;
+	top: 210px;
+}
+}
+
+
+
+/* Custom 375px */
+@media only screen and (max-width : 375px) {
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 150px;
+	left: 35%;
+	top: 205px;
+}
+}
+
+
+/* Custom 320px */
+@media only screen and (max-width : 320px) {
+
+IMG.Hatsushimo_Nya {
+	position: fixed;
+	height: auto;
+	width: 150px;
+	left: 100px;
+	top: 200px;
+}
+}
+
+/* Конец xD */
